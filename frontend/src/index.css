@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('./img/jap_boat.png');
+  background-repeat:repeat-y;
+  background-size: 100%;
+}
+
+.quoteImg {
+  max-height: 600px;
+}
+
+.error {
+  color: red;
+}
+
+.workerTask {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #555;
+}
+
+.formStyle {
+  max-width: 850px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+.rowStyle {
+  margin: 5px 3px 5px 3px;
+  border: 2px solid #555;
+}
+
+.colMidStyle {
+  border-right: 1px solid #cdcdcd;
+}
+
+.colLeftStyle {
+  border-left: 1px solid #cdcdcd;
+}
+
+.colBotStyle {
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 3px;
+}
+
+.colTopStyle {
+  border-top: 1px solid #cdcdcd;
+}
+
+.space {
+  margin-bottom: 3px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.fontSpace {
+  font-size: large;
+  font-weight: 600;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.buttonSpace {
+  margin-left: 5px;
+}
+
+#finalBudgetDiv {
+  font-size: large;
+}
